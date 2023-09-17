@@ -1,4 +1,3 @@
----
 import ListCategories from '@/components/ListCategories'
 import ListPosts from '@/components/ListPosts'
 import Shape from '@/components/icons/Shape'
@@ -7,7 +6,7 @@ import { getPosts } from '@/utils'
 
 const MAX_POSTS = 5 // max number of posts to show on the home page
 const posts = await getPosts(MAX_POSTS)
----
+
 
 <BaseLayout title='Home'>
 	<div class='flex justify-start items-center gap-2 title'>
