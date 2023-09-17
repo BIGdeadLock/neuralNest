@@ -1,11 +1,20 @@
 ---
+title: Your Title
+description: Your Description
+image: Your Image URL
+articleDate: Your Article Date
+---
+
 import BaseHead from '@/components/BaseHead'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import ProviderTheme from '@/components/ProviderTheme'
 import ProviderAnimations from '@/components/ProviderAnimations'
-const { title, description, image, articleDate } = Astro.props
----
+
+const title = 'Your Title'
+const description = 'Your Description'
+const image = 'Your Image URL'
+const articleDate = 'Your Article Date'
 
 <html lang='en' class='scroll-smooth'>
 	<head>
